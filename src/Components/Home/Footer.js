@@ -11,8 +11,9 @@ import {
   Icon,
   Stack,
   useColorModeValue,
+  Link,
 } from '@chakra-ui/react';
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaBehance, FaWhatsapp, FaTwitter, FaYoutube } from 'react-icons/fa';
 import LogoAvatar from '../../img/logo-color.svg';
 import logoAvatarW from '../../img/logo-white.svg';
 
@@ -33,10 +34,21 @@ const Footer = () => {
           >
             <Box>
               <ButtonGroup spacing="4" mt={6} mr={['5', '90px']}>
-                <Icon as={FaFacebook} w={['4', '8']} h={['4', '8']} />
-                <Icon as={FaInstagram} w={['4', '8']} h={['4', '8']} />
-                <Icon as={FaTwitter} w={['4', '8']} h={['4', '8']} />
-                <Icon as={FaYoutube} w={['4', '8']} h={['4', '8']} />
+                <Link href="https://www.behance.net/lensagency" isExternal>
+                  <Icon as={FaBehance} w={['4', '8']} h={['4', '8']} />
+                </Link>
+                <Link href="https://wa.me/+966550215222" isExternal>
+                  <Icon as={FaWhatsapp} w={['4', '8']} h={['4', '8']} />
+                </Link>
+                <Link href="https://twitter.com/LensAgency" isExternal>
+                  <Icon as={FaTwitter} w={['4', '8']} h={['4', '8']} />
+                </Link>
+                <Link
+                  href="https://www.youtube.com/channel/UCGiOz8lnaVmiZu1a6D8L6fg"
+                  isExternal
+                >
+                  <Icon as={FaYoutube} w={['4', '8']} h={['4', '8']} />
+                </Link>
               </ButtonGroup>
             </Box>
             <Box>

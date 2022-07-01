@@ -8,6 +8,7 @@
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
     "@fontsource/cairo": "^4.5.9",
+    "@fontsource/tajawal": "^4.5.8",
     "@openfonts/cairo_arabic": "^1.44.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

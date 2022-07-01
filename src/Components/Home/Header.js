@@ -8,11 +8,18 @@ import {
   Icon,
   useColorModeValue,
   createIcon,
+  Link,
 } from '@chakra-ui/react';
-
+import Head from 'next/head';
 export default function CallToActionWithAnnotation() {
   return (
     <>
+      <Head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <Container maxW={'3xl'}>
         <Stack
           as={Box}
@@ -42,18 +49,20 @@ export default function CallToActionWithAnnotation() {
             alignSelf={'center'}
             position={'relative'}
           >
-            <Button
-              colorScheme={useColorModeValue('white', 'white')}
-              bg='#3F3791'
-              rounded={'full'}
-              px={6}
-              _hover={{
-                bg: '#3F3791',
-              }}
-              color={useColorModeValue('white', 'white')}
-            >
-              حياك الله
-            </Button>
+            <Link href="https://wa.me/+966550215222" isExternal>
+              <Button
+                colorScheme={useColorModeValue('white', 'white')}
+                bg="#3F3791"
+                rounded={'full'}
+                px={6}
+                _hover={{
+                  bg: '#3F3791',
+                }}
+                color={useColorModeValue('white', 'white')}
+              >
+                حياك الله
+              </Button>
+            </Link>
 
             <Box>
               <Icon
@@ -72,7 +81,7 @@ export default function CallToActionWithAnnotation() {
                 top={'-15px'}
                 transform={'rotate(10deg)'}
               >
-               للرؤية عبر عدستنا
+                للرؤية عبر عدستنا
               </Text>
             </Box>
           </Stack>
