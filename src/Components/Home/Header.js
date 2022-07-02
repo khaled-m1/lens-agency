@@ -11,8 +11,10 @@ import {
   Link,
   Image,
 } from '@chakra-ui/react';
-import heroColor from '../../img/heroColor.svg';
-import heroWhite from '../../img/heroWhite.svg';
+import heroColor from '../../img/pClipC.svg';
+import heroWhite from '../../img/pClipY.svg';
+import bgHeroC from '../../img/backgroundHeroC.svg';
+import bgHeroW from '../../img/backgroundHeroW.svg';
 export default function CallToActionWithAnnotation() {
   return (
     <>
@@ -30,7 +32,7 @@ export default function CallToActionWithAnnotation() {
             lineHeight={'110%'}
           >
             حيث نلتقط الصورة انطلاقًا <br />
-            <Text as={'span'} color={'#3F3791'}>
+            <Text as={'span'} color={useColorModeValue('#3F3791', '#F0BD1B')}>
               من الفكرة
             </Text>
           </Heading>
@@ -99,6 +101,26 @@ export default function CallToActionWithAnnotation() {
               zIndex={0}
               alt="Pattren"
               // opacity="0.5"
+            />
+          </Box>
+
+          {/* bgHeroC---bgHeroW */}
+          <Box
+            position="absolute"
+            zIndex={-5}
+            objectFit="cover"
+            // border={'1px solid black'}
+            overflow="hidden"
+            h="600px"
+            right={0}
+            top={0}
+          >
+            <Image
+              src={useColorModeValue(bgHeroC, bgHeroW)}
+              w={['100vh', '200vh']}
+              h={['100vh', '200vh']}
+              zIndex={0}
+              alt="Pattren"
             />
           </Box>
         </Stack>

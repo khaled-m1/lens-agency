@@ -57,9 +57,10 @@ export default function Simple() {
                 objectFit="cover"
                 src={useColorModeValue(avatarLogo, avatarLogoW)}
                 alt="LOGO"
-                w={['84px', '126px']}
-                h={['27px', '41px']}
-                mr={2}
+                w={['120px', '190px']}
+                h={['39px', '62px']}
+                mr={5}
+                mt={10}
               />
             </Box>
             <HStack

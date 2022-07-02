@@ -31,8 +31,8 @@ const Feature = ({ text, icon, iconBg }) => {
   return (
     <Stack direction={'row'} align={'center'}>
       <Flex
-        w={8}
-        h={8}
+        w={5}
+        h={5}
         align={'center'}
         justify={'center'}
         rounded={'full'}
@@ -52,7 +52,7 @@ export default function SplitWithImage() {
         <Stack spacing={4}>
           <Flex>
             <Text
-              color={'#393E86'}
+              color={useColorModeValue('#393E86', '#fff')}
               fontWeight={750}
               fontSize={'4xl'}
               p={2}
@@ -91,9 +91,9 @@ export default function SplitWithImage() {
                     <Box flex="1" textAlign="right">
                       <Feature
                         icon={
-                          <Icon as={FaAngleLeft} color={'white'} w={5} h={5} />
+                          <Icon as={FaAngleLeft} color={'white'} w={3} h={3} />
                         }
-                        iconBg={useColorModeValue('#EFBC34', 'yellow.900')}
+                        iconBg={useColorModeValue('#F0BD1B', '#F0BD1B')}
                         text={'الخدمات التسويقية'}
                       />
                     </Box>
@@ -104,12 +104,12 @@ export default function SplitWithImage() {
                   <List spacing={3}>
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
-                      الحملات الاعلانية عبر المؤثرين
+                      الحملات الإعلانية عبر المؤثرين
                     </ListItem>
 
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
-                      ادارة حسابات مواقع التواصل الاجتماعي
+                      إدارة حسابات مواقع التواصل الاجتماعي
                     </ListItem>
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
@@ -133,7 +133,7 @@ export default function SplitWithImage() {
                     </ListItem>
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
-                      افكار دعائية
+                      أفكار دعائية
                     </ListItem>
                   </List>
                 </AccordionPanel>
@@ -145,9 +145,9 @@ export default function SplitWithImage() {
                     <Box flex="1" textAlign="right">
                       <Feature
                         icon={
-                          <Icon as={FaAngleLeft} color={'white'} w={5} h={5} />
+                          <Icon as={FaAngleLeft} color={'white'} w={3} h={3} />
                         }
-                        iconBg={useColorModeValue('#B0CC6A', '#B0CC6A')}
+                        iconBg={useColorModeValue('#3F3393', '#3F3393')}
                         text={'الخدمات الاستراتيجية'}
                       />
                     </Box>
@@ -163,7 +163,7 @@ export default function SplitWithImage() {
 
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
-                      ابحاث السوق والتنافسية
+                      أبحاث السوق والتنافسية
                     </ListItem>
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
@@ -171,11 +171,11 @@ export default function SplitWithImage() {
                     </ListItem>
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
-                      استراتيجية ادارة علاقات العملاء
+                      استراتيجية إدارة علاقات العملاء
                     </ListItem>
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
-                      التخطيط الاعلامي
+                      التخطيط الإعلامي
                     </ListItem>
                   </List>
                 </AccordionPanel>
@@ -186,9 +186,9 @@ export default function SplitWithImage() {
                     <Box flex="1" textAlign="right">
                       <Feature
                         icon={
-                          <Icon as={FaAngleLeft} color={'white'} w={5} h={5} />
+                          <Icon as={FaAngleLeft} color={'white'} w={3} h={3} />
                         }
-                        iconBg={useColorModeValue('#DC563C', '#DC563C')}
+                        iconBg={useColorModeValue('#F0BD1B', '#F0BD1B')}
                         text={'الخدمات الفنية'}
                       />
                     </Box>
@@ -212,7 +212,7 @@ export default function SplitWithImage() {
                     </ListItem>
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
-                      تصميم الانفوجرافيك
+                      تصميم الإنفوجرافيك
                     </ListItem>
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
@@ -232,9 +232,9 @@ export default function SplitWithImage() {
                     <Box flex="1" textAlign="right">
                       <Feature
                         icon={
-                          <Icon as={FaAngleLeft} color={'white'} w={5} h={5} />
+                          <Icon as={FaAngleLeft} color={'white'} w={3} h={3} />
                         }
-                        iconBg={useColorModeValue('#1AA3B7', '#1AA3B7')}
+                        iconBg={useColorModeValue('#3F3393', '#3F3393')}
                         text={'الخدمات الصوتية'}
                       />
                     </Box>
@@ -254,7 +254,7 @@ export default function SplitWithImage() {
                     </ListItem>
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
-                      صناعة الاغاني
+                      صناعة الأغاني
                     </ListItem>
                   </List>
                 </AccordionPanel>
@@ -266,7 +266,7 @@ export default function SplitWithImage() {
                     <Box flex="1" textAlign="right">
                       <Feature
                         icon={
-                          <Icon as={FaAngleLeft} color={'white'} w={5} h={5} />
+                          <Icon as={FaAngleLeft} color={'white'} w={3} h={3} />
                         }
                         iconBg={useColorModeValue('#F0BD1B', '#F0BD1B')}
                         text={'الخدمات الإنتاجية'}
@@ -300,9 +300,9 @@ export default function SplitWithImage() {
                     <Box flex="1" textAlign="right">
                       <Feature
                         icon={
-                          <Icon as={FaAngleLeft} color={'white'} w={5} h={5} />
+                          <Icon as={FaAngleLeft} color={'white'} w={3} h={3} />
                         }
-                        iconBg={useColorModeValue('#3F3791', 'purple.900')}
+                        iconBg={useColorModeValue('#3F3393', '#3F3393')}
                         text={'خدمات العلاقات العامة'}
                       />
                     </Box>
@@ -318,11 +318,11 @@ export default function SplitWithImage() {
 
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
-                      ادارة السمعة الاعلامية
+                      إدارة السمعة الاعلامية
                     </ListItem>
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
-                      ادارة الازمات
+                      إدارة الازمات
                     </ListItem>
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
