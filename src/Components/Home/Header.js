@@ -121,6 +121,7 @@ export default function CallToActionWithAnnotation() {
               h={['100vh', '200vh']}
               zIndex={0}
               alt="Pattren"
+              opacity={['100%', '50%']}
             />
           </Box>
         </Stack>
