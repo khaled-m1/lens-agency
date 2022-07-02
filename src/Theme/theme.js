@@ -6,4 +6,5 @@ const theme = extendTheme({
     body: 'Cairo',
   },
 });
+
 export default theme;

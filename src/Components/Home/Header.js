@@ -16,12 +16,13 @@ import heroWhite from '../../img/heroWhite.svg';
 export default function CallToActionWithAnnotation() {
   return (
     <>
-      <Container maxW={'3xl'}>
+      <Container maxW={'3xl'} overflow="hidden">
         <Stack
           as={Box}
           textAlign={'center'}
           spacing={{ base: 8, md: 14 }}
           py={{ base: 20, md: 36 }}
+          overflow="hidden"
         >
           <Heading
             fontWeight={600}
@@ -86,17 +87,18 @@ export default function CallToActionWithAnnotation() {
             objectFit="cover"
             // border={'1px solid black'}
             overflow="hidden"
-            left={'-90px'}
-            top={'-150'}
+            left={['0px', '0px']}
+            // right={['290px', '1090px']}
+            // bottom={['1490px','1290px']}
+            top={['-100px', '-150']}
           >
             <Image
               src={useColorModeValue(heroColor, heroWhite)}
-              w={'100%'}
-              h={'100%'}
-            
+              w={['180px', '100%']}
+              h={['180px', '100%']}
               zIndex={0}
               alt="Pattren"
-              opacity="0.5"
+              // opacity="0.5"
             />
           </Box>
         </Stack>

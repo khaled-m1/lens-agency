@@ -147,7 +147,7 @@ export default function SplitWithImage() {
                         icon={
                           <Icon as={FaAngleLeft} color={'white'} w={5} h={5} />
                         }
-                        iconBg={useColorModeValue('green.100', 'green.900')}
+                        iconBg={useColorModeValue('#B0CC6A', '#B0CC6A')}
                         text={'الخدمات الاستراتيجية'}
                       />
                     </Box>
@@ -188,7 +188,7 @@ export default function SplitWithImage() {
                         icon={
                           <Icon as={FaAngleLeft} color={'white'} w={5} h={5} />
                         }
-                        iconBg={useColorModeValue('#3F3791', 'purple.900')}
+                        iconBg={useColorModeValue('#DC563C', '#DC563C')}
                         text={'الخدمات الفنية'}
                       />
                     </Box>
@@ -234,7 +234,7 @@ export default function SplitWithImage() {
                         icon={
                           <Icon as={FaAngleLeft} color={'white'} w={5} h={5} />
                         }
-                        iconBg={useColorModeValue('#EFBC34', 'yellow.900')}
+                        iconBg={useColorModeValue('#1AA3B7', '#1AA3B7')}
                         text={'الخدمات الصوتية'}
                       />
                     </Box>
@@ -268,7 +268,7 @@ export default function SplitWithImage() {
                         icon={
                           <Icon as={FaAngleLeft} color={'white'} w={5} h={5} />
                         }
-                        iconBg={useColorModeValue('green.100', 'green.900')}
+                        iconBg={useColorModeValue('#F0BD1B', '#F0BD1B')}
                         text={'الخدمات الإنتاجية'}
                       />
                     </Box>

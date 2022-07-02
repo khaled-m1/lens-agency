@@ -57,8 +57,8 @@ export default function Simple() {
                 objectFit="cover"
                 src={useColorModeValue(avatarLogo, avatarLogoW)}
                 alt="LOGO"
-                w={['84px', '95px']}
-                h={['27px', '31px']}
+                w={['84px', '126px']}
+                h={['27px', '41px']}
                 mr={2}
               />
             </Box>
