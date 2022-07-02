@@ -14,15 +14,33 @@ function StatsCard(props) {
     <Stat
       px={{ base: 4, md: 8 }}
       py={'5'}
-      shadow={'sm'}
-      border={'1px solid'}
       borderColor={useColorModeValue('gray', 'gray')}
       rounded={'lg'}
     >
-      <StatNumber fontSize={'2xl'} fontWeight={'medium'}>
+      <StatNumber
+        fontSize={'3xl'}
+        fontWeight={'650'}
+        color={useColorModeValue('#F0BD1B', 'white')}
+      >
         {title}
       </StatNumber>
-      <StatLabel fontWeight={'medium'} isTruncated>
+
+      <hr
+        style={{
+          color: '#3F3393',
+          backgroundColor: '#3F3393',
+          width: 30,
+          height: 5,
+          marginTop:10,
+          marginBottom:10,
+        }}
+      />
+
+      <StatLabel
+        fontWeight={'medium'}
+        isTruncated
+        color={useColorModeValue('#3F3393', 'white')}
+      >
         {stat}
       </StatLabel>
     </Stat>

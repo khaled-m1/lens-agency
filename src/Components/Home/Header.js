@@ -9,17 +9,13 @@ import {
   useColorModeValue,
   createIcon,
   Link,
+  Image,
 } from '@chakra-ui/react';
-import Head from 'next/head';
+import heroColor from '../../img/heroColor.svg';
+import heroWhite from '../../img/heroWhite.svg';
 export default function CallToActionWithAnnotation() {
   return (
     <>
-      <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
       <Container maxW={'3xl'}>
         <Stack
           as={Box}
@@ -75,7 +71,6 @@ export default function CallToActionWithAnnotation() {
               />
               <Text
                 fontSize={'lg'}
-                fontFamily={'Caveat'}
                 position={'absolute'}
                 right={'-125px'}
                 top={'-15px'}
@@ -85,6 +80,25 @@ export default function CallToActionWithAnnotation() {
               </Text>
             </Box>
           </Stack>
+          <Box
+            position="absolute"
+            zIndex={-5}
+            objectFit="cover"
+            // border={'1px solid black'}
+            overflow="hidden"
+            left={'-90px'}
+            top={'-150'}
+          >
+            <Image
+              src={useColorModeValue(heroColor, heroWhite)}
+              w={'100%'}
+              h={'100%'}
+            
+              zIndex={0}
+              alt="Pattren"
+              opacity="0.5"
+            />
+          </Box>
         </Stack>
       </Container>
     </>

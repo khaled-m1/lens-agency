@@ -94,13 +94,13 @@ export default function GridListWithHeading() {
                 صناعة العلامة التجارية{' '}
               </Text>
               <Text color={useColorModeValue('gray.600', 'white')}>
-                تصميم الكتيبات والعروض التقديمية{' '}
+                تصميم الكتيبات والعروض التقديمية {' '}
               </Text>
               <Text color={useColorModeValue('gray.600', 'white')}>
                 تصميم الانفوجرافيك
               </Text>
               <Text color={useColorModeValue('gray.600', 'white')}>
-                تصميم الغلافات الدعائية{' '}
+                تصميم الغلافات الدعائية {' '}
               </Text>
               <Text color={useColorModeValue('gray.600', 'white')}>
                 تصاميم ذكية وابداعية
@@ -118,7 +118,7 @@ export default function GridListWithHeading() {
                 التعليق الصوتي
               </Text>
               <Text color={useColorModeValue('gray.600', 'white')}>
-                الهوية الصوتية{' '}
+                الهوية الصوتية {' '}
               </Text>
               <Text color={useColorModeValue('gray.600', 'white')}>
                 صناعة الاغاني
@@ -136,7 +136,7 @@ export default function GridListWithHeading() {
                 التصوير
               </Text>
               <Text color={useColorModeValue('gray.600', 'white')}>
-                موشن جرافيك{' '}
+                موشن جرافيك {' '}
               </Text>
               <Text color={useColorModeValue('gray.600', 'white')}>VFX</Text>
               <Text color={useColorModeValue('gray.600', 'white')}>
@@ -152,13 +152,13 @@ export default function GridListWithHeading() {
             <VStack align={'start'}>
               <Text fontWeight={600}>خدمات العلاقات العامة</Text>
               <Text color={useColorModeValue('gray.600', 'white')}>
-                تعزيز العلاقة بالصحف والقنوات{' '}
+                تعزيز العلاقة بالصحف والقنوات   {' '}
               </Text>
               <Text color={useColorModeValue('gray.600', 'white')}>
                 ادارة السمعة الاعلامية
               </Text>
               <Text color={useColorModeValue('gray.600', 'white')}>
-                ادارة الازمات{' '}
+                ادارة الازمات {' '}
               </Text>
               <Text color={useColorModeValue('gray.600', 'white')}>
                 الرعايات
