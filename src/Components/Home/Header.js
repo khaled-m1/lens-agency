@@ -111,7 +111,7 @@ export default function CallToActionWithAnnotation() {
             objectFit="cover"
             // border={'1px solid black'}
             overflow="hidden"
-            h="600px"
+            h="500px"
             right={0}
             top={0}
           >

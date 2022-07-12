@@ -14,7 +14,13 @@ import {
   Link,
   Heading,
 } from '@chakra-ui/react';
-import { FaBehance, FaWhatsapp, FaTwitter, FaYoutube } from 'react-icons/fa';
+import {
+  FaBehance,
+  FaWhatsapp,
+  FaTwitter,
+  FaYoutube,
+  FaLinkedin,
+} from 'react-icons/fa';
 import LogoAvatar from '../../img/logo-color.svg';
 import logoAvatarW from '../../img/logo-white.svg';
 import ppWhite from '../../img/ppWhite.svg';
@@ -36,6 +42,12 @@ const Footer = () => {
                 التقط نجاحك
               </Heading>
               <ButtonGroup spacing="4" mt={6} mr={['5', '90px']}>
+                <Link
+                  href="https://www.linkedin.com/company/lensagency/about/"
+                  isExternal
+                >
+                  <Icon as={FaLinkedin} w={['4', '8']} h={['4', '8']} />
+                </Link>
                 <Link href="https://www.behance.net/lensagency" isExternal>
                   <Icon as={FaBehance} w={['4', '8']} h={['4', '8']} />
                 </Link>
