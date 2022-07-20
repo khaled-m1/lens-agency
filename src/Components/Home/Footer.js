@@ -20,6 +20,7 @@ import {
   FaTwitter,
   FaYoutube,
   FaLinkedin,
+  FaInstagram,
 } from 'react-icons/fa';
 import LogoAvatar from '../../img/logo-color.svg';
 import logoAvatarW from '../../img/logo-white.svg';
@@ -42,6 +43,9 @@ const Footer = () => {
                 التقط نجاحك
               </Heading>
               <ButtonGroup spacing="4" mt={6} mr={['5', '90px']}>
+                <Link href="https://www.instagram.com/lensagencysa/" isExternal>
+                  <Icon as={FaInstagram} w={['4', '8']} h={['4', '8']} />
+                </Link>
                 <Link
                   href="https://www.linkedin.com/company/lensagency/about/"
                   isExternal
