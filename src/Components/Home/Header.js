@@ -75,7 +75,7 @@ export default function CallToActionWithAnnotation() {
               <Text
                 fontSize={'lg'}
                 position={'absolute'}
-                right={['-90px', '-125px']}
+                right={['-120px', '-125px']}
                 top={['-5px', '-15px']}
                 transform={'rotate(10deg)'}
               >

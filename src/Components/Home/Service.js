@@ -86,7 +86,7 @@ export default function SplitWithImage() {
               />
             }
           >
-            <Accordion>
+            <Accordion allowToggle>
               <AccordionItem>
                 <h2>
                   <AccordionButton>
