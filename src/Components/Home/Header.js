@@ -37,9 +37,9 @@ export default function CallToActionWithAnnotation() {
             </Text>
           </Heading>
           <Text color={useColorModeValue('gray', 'white')}>
-            نلتقط الرؤى ونتناول الأهداف عبر عدسة الاحتراف، فنصوّر منها فكرةً
-            بديعة نحيكها بأنسجة كوادرنا ونخطها بأنامل خبراتنا لتسطع في سماء
-            التسويق الرقمي.
+            وكالة تسويق سعودية نلتقط الرؤى ونًتناول الأهداف عبر عدسةالاحتراف،
+            فنصّور منها فكرة بديعة نحيكها بأنسجة كوادرنا ونخطها بأنامل خبراتنا
+            لتسطع في سماء التسويق الرقمي
           </Text>
           <Stack
             direction={'column'}
@@ -70,16 +70,16 @@ export default function CallToActionWithAnnotation() {
                 w={71}
                 position={'absolute'}
                 right={-71}
-                top={'10px'}
+                top={['25px', '10px']}
               />
               <Text
                 fontSize={'lg'}
                 position={'absolute'}
-                right={'-125px'}
-                top={'-15px'}
+                right={['-90px', '-125px']}
+                top={['-5px', '-15px']}
                 transform={'rotate(10deg)'}
               >
-                للرؤية عبر عدستنا
+                للإبصار بعدستنا
               </Text>
             </Box>
           </Stack>

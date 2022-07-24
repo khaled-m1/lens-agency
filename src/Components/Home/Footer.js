@@ -13,6 +13,7 @@ import {
   useColorModeValue,
   Link,
   Heading,
+  Button,
 } from '@chakra-ui/react';
 import {
   FaBehance,
@@ -30,6 +31,28 @@ const Footer = () => {
   return (
     <>
       <Stack spacing={4} align="stretch" mt={50} mb={10}>
+        <Stack>
+          <Link
+            href="https://drive.google.com/file/d/1Dy2MNiVgNL2OwFSKK0M2J6axK7yhR5QO/view?usp=sharing"
+            isExternal
+          >
+            <Button
+              colorScheme={useColorModeValue('white', 'white')}
+              w="200px"
+              top={['-50px']}
+              mr={['90px', '210px']}
+              bg="#3F3791"
+              rounded={'full'}
+              px={6}
+              _hover={{
+                bg: '#3F3791',
+              }}
+              color={useColorModeValue('white', 'white')}
+            >
+              الملف التعريفي
+            </Button>
+          </Link>
+        </Stack>
         <Box zIndex={2}>
           <hr width={['100%']} />
         </Box>

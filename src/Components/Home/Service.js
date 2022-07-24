@@ -20,6 +20,8 @@ import {
   ListIcon,
   OrderedList,
   UnorderedList,
+  Link,
+  Button,
 } from '@chakra-ui/react';
 import { FaFacebook, FaEllo, FaAngleLeft, FaYoutube } from 'react-icons/fa';
 import { CheckIcon } from '@chakra-ui/icons';
@@ -189,7 +191,7 @@ export default function SplitWithImage() {
                           <Icon as={FaAngleLeft} color={'white'} w={3} h={3} />
                         }
                         iconBg={useColorModeValue('#F0BD1B', '#F0BD1B')}
-                        text={'الخدمات الفنية'}
+                        text={'الخدمات الإبداعية'}
                       />
                     </Box>
                     <AccordionIcon />

@@ -31,8 +31,8 @@ function StatsCard(props) {
           backgroundColor: '#3F3393',
           width: 30,
           height: 5,
-          marginTop:10,
-          marginBottom:10,
+          marginTop: 10,
+          marginBottom: 10,
         }}
       />
 
@@ -64,11 +64,12 @@ export default function BasicStatistics() {
           }
         />
         <StatsCard
-          title={'القيم'}
+          title={'قيمنــا'}
           stat={`
-          أصالة الخبرة،
-          إبداع الصورة، تفرد العبارة
-          نجاح الفكرة
+          أصــالة،
+         تــحـدي،
+         طــمـوح،
+         إبــداع
           `}
         />
       </SimpleGrid>
