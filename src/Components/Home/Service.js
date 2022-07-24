@@ -119,7 +119,7 @@ export default function SplitWithImage() {
                     </ListItem>
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
-                      الترويج الالكتروني
+                      الترويج الإلكتروني
                     </ListItem>
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
@@ -162,11 +162,11 @@ export default function SplitWithImage() {
                       <ListIcon as={CheckIcon} color="green.500" />
                       التحليلات
                     </ListItem>
-
+                    {/* 
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
                       أبحاث السوق والتنافسية
-                    </ListItem>
+                    </ListItem> */}
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
                       استراتيجية التسويق
@@ -320,11 +320,11 @@ export default function SplitWithImage() {
 
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
-                      إدارة السمعة الاعلامية
+                      إدارة السمعة الإعلامية
                     </ListItem>
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
-                      إدارة الازمات
+                      إدارة الأزمات
                     </ListItem>
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
