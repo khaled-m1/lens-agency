@@ -201,13 +201,13 @@ export default function SplitWithImage() {
                   <List spacing={3}>
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
-                      تطوير الهوية البصرية
+                      صناعة وتطوير الهوية البصرية
                     </ListItem>
 
-                    <ListItem>
+                    {/* <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
                       صناعة العلامة التجارية
-                    </ListItem>
+                    </ListItem> */}
                     <ListItem>
                       <ListIcon as={CheckIcon} color="green.500" />
                       تصميم الكتيبات والعروض التقديمية
