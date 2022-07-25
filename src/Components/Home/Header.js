@@ -94,10 +94,11 @@ export default function CallToActionWithAnnotation() {
             // bottom={['1490px','1290px']}
             top={['-100px', '-150']}
           >
+            {/* must be edit an safari brwoser */}
             <Image
               src={useColorModeValue(heroColor, heroWhite)}
-              w={['180px', '100%']}
-              h={['180px', '100%']}
+              width={['180px', '46vh']}
+              height={['180px', '46vh']}
               zIndex={0}
               alt="Pattren"
               // opacity="0.5"
@@ -115,10 +116,11 @@ export default function CallToActionWithAnnotation() {
             right={0}
             top={0}
           >
+            {/* background lines */}
             <Image
               src={useColorModeValue(bgHeroC, bgHeroW)}
-              w={['100vh', '200vh']}
-              h={['100vh', '200vh']}
+              w={['100vh', '200vh', '250vh']}
+              h={['100vh', '200vh', '250vh']}
               zIndex={0}
               alt="Pattren"
               opacity={['100%', '50%']}
